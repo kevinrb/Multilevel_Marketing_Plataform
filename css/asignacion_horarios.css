@@ -1,0 +1,56 @@
+.barra_dias{
+border: 1px solid #ccc;
+width:  90px;
+height: 50px;	
+float: left;
+position: relative;
+word-wrap: break-word;
+text-align:center;
+background:#909DF1;
+font-size:12px;
+}
+
+.barra_dias_m{
+border: 1px solid #ccc;
+width:  90px;
+height: 50px;	
+float: left;
+position: relative;
+word-wrap: break-word;
+text-align:center;
+background:#04B431;
+font-size:12px;
+}
+
+.barra_dias_cont{
+border: 1px solid #ccc;
+width:  35px;
+height: 50px;	
+float: left;
+position: relative;
+word-wrap: break-word;
+text-align:center;
+background:#E6FCFC;
+}
+
+.barra_dias_cont_m{
+border: 1px solid #ccc;
+width:  35px;
+height: 50px;	
+float: left;
+position: relative;
+word-wrap: break-word;
+text-align:center;
+background:#fff;
+}
+
+.barra_dias_lista{
+border: 1px solid #ccc;
+width:  35px;
+height: 50px;	
+float: left;
+position: relative;
+word-wrap: break-word;
+text-align:center;
+background:#6f6;
+}

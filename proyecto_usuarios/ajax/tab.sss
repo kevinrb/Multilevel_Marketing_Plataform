@@ -1,0 +1,11 @@
+alter table areas add jefe_area varchar(20);
+create table area_puesto(
+idarea int,
+puesto varchar(30),
+activo bool not null default 1,
+key(idarea,puesto)
+);
+
+alter table usuarios add idarea int;
+insert into area_puesto(idarea,puesto) values('1','PROGRAMADOR'),('1','OPTIMIZADOR');
+alter table usuarios add cargo varchar(30) not null default 'SIN ASIGNAR';

@@ -1,0 +1,11 @@
+.panel-heading .btn-xs{float: right;}
+.panel-heading>*{display: inline;}
+#main {margin-right: 0px; background-color: #eee; border-right: 12px solid white;}
+.page-header{ padding-bottom: 10px; margin: 20px 0; }
+h1{margin:0px;}
+#accordion{background-color: white; border: 11px solid white; padding: 2px;}
+.panel-body h5{font-size: 13px !important; cursor: pointer;}
+.panel-body h5:hover{font-weight: bolder;}
+.panel-body h5 a:hover{text-decoration: none;}
+.panel-body .panel-heading{padding: 5px 10px;}
+#additem .panel-heading, #addmodule .panel-heading{text-align: center;}

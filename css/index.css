@@ -1,0 +1,11 @@
+html, body{width: 100%;}
+.page-header{border-width: 10px; margin:0; padding: 10px 20px;}
+*{background-color: #ccc;}
+.col-md-3{border: 1px solid #808080;
+		  border-radius: 5px;
+		  margin: 10px;
+		  overflow: hidden;
+		  display: inline-block;
+		  float: none;}
+.col-md-3:hover{border: 2px solid #004080; font-weight: bold;}		  
+.row{text-align: center; margin: 0; padding-top: 10px;}

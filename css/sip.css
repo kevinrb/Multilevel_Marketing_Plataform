@@ -1,0 +1,33 @@
+.left{
+float: left;
+width: 140px;
+height:27px;
+font-size:140%;
+padding-top:3px
+}
+.right{
+float: left;
+width: 550px;
+height:27px;
+}
+
+#cuadro{
+width: 900px;	
+}
+
+.element{
+width: 690px;
+height: 38px;
+}
+
+#lista{
+width: 600px;
+height: 50px;	
+}
+select{
+height:27px;
+width:210px;
+margin-bottom: 1px;
+margin-right: 10px;
+padding:2px
+}

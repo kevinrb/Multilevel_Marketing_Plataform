@@ -1,0 +1,47 @@
+a:link {color:#DDD; text-decoration:none;}
+a:visited {color:#DDD; text-decoration:none;}
+a:active {color:#FFF; text-decoration:none;}
+a:hover {color:#FFF; text-decoration:underline;}
+#accordion {
+	background-color:#363;
+	width: 188px;
+	border:1px solid #333;
+}
+
+body {
+  font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+font-size: 62.5%;
+}
+/* accordion header */
+#accordion h2 {
+	background:#ccc url(mis_cambios_files/h30.png);
+	margin:0;
+	padding:5px 15px;
+	font-size:13px;
+	font-weight:normal;
+  border-color: #fff #fff #ddd;
+  border-style: solid none;
+  border-width: 1px 0;
+	cursor:pointer;		
+}
+/* currently active header */
+#accordion h2.current {
+	cursor:default;
+	background-color:#fff;
+}
+/* accordion pane   font-size:12px;
+*/
+#accordion .pane {
+	display:none;
+  padding:10px;
+  overflow: auto;
+}
+
+/* a title inside pane */
+#accordion .pane h3 {
+	font-weight:normal;
+	margin:0 0 -5px 0;
+	font-size:16px;
+	color:#999;
+}
+
