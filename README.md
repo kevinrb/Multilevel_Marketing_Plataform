@@ -12,4 +12,4 @@ Technologies and frameworks used were:
 * MySQL
 * Linux
 
-At the end, we kept the API REST for the new plataform in order to communicate with client's ERP.
+At the end, we kept the REST API for the new platform in order to communicate with client's ERP.
